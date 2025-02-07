@@ -1,4 +1,4 @@
-### Hello there 👋
+### Hello there, I am Yeshey 👋
 Interest: JS Go-Lang Rust Ruby-on-Rails<br>
 Currently learning Go-Lang<br>
 
