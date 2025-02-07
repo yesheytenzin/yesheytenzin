@@ -1,6 +1,5 @@
 ### Hello there, I am Yeshey 👋
 Interest: JS Go-Lang Rust Ruby-on-Rails<br>
-Currently learning Go-Lang<br>
 
 - ⚙️ I use daily: `.js`, `.html`, `.css`, `.jsx`, `.tsx`, `.go`
 -   :monocle_face: Interested in **DevOps**
