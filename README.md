@@ -4,5 +4,5 @@ Interest: JS Go-Lang Rust Ruby-on-Rails<br>
 - ⚙️ I use daily: `.js`, `.html`, `.css`, `.jsx`, `.tsx`, `.go`
 -   :monocle_face: Interested in **DevOps**
 -   :seedling: Currently learning **Golang**
--   :heart: Open Source Software
+-   :heart: Developemnt
 -   :penguin: **Linux** ... it does infinite loops in 5 seconds..
