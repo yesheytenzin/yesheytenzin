@@ -29,6 +29,11 @@
                                           RAM: 15.39 GB
                                           Generated: 2025-10-14 22:48:35
 ```
-<br>
+###
+
+<br clear='both'>
+
 <img src="https://raw.githubusercontent.com/yesheytenzin/yesheytenzin/output/snake.svg" alt="Snake animation" />
+
+###
 
