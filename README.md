@@ -29,3 +29,5 @@
                                           RAM: 15.39 GB
                                           Generated: 2025-10-14 22:48:35
 ```
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+
