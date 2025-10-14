@@ -20,22 +20,5 @@
  `++:.                           `-/+/    Email: ...................... yeshey.tenzin@example.com
  .`                                 `     LinkedIn: ................... yeshey-tenzin
                                           GitHub: ..................... yesheytenzin
-
-                                          GitHub Stats
-                                          ------------
-                                          Repos: 45 | Stars: 120
-                                          Commits: 1500 | Followers: 210
-                                          Lines of Code: 123,456+ / 23,890−
-                                          RAM: 15.39 GB
-                                          Generated: 2025-10-14 22:48:35
 ```
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yesheytenzin/yesheytenzin/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yesheytenzin/yesheytenzin/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/yesheytenzin/yesheytenzin/output/pacman-contribution-graph.svg">
-</picture>
-
-###
 
