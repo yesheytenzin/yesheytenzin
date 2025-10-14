@@ -1,79 +1,61 @@
-
-✅ **Important:** Those comment markers (`<!--NEOFETCH_START-->`, `<!--NEOFETCH_END-->`) are used by the script to insert your system block.
-
----
-
-## 🐍 Step 4: Create `generate_neofetch.py`
-
-In the same directory (`yesheytenzin/`), create a file:
-
-**`generate_neofetch.py`**
-```python
+import platform
+import psutil
 import datetime
-from pathlib import Path
-
-# ===============================
-# Configuration (edit these)
-# ===============================
-USERNAME = "yesheytenzin"
-OS_NAME = "Debian GNU/Linux x86_64"
-SHELL = "fish"
-RESOLUTION = "1920x1080 @144Hz"
-TERMINAL = "GitHub"
-LANGUAGES = "Python, JavaScript, C++, SQL"
-PROJECTS = "AI Pest Detection, Smart Greenhouse Automation"
-MOOD = "🚀 Always building cool things"
-# ===============================
-
-
-ASCII_ART = r"""
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
-"""
 
 def generate_neofetch_block():
+    # Collect system info
+    uname = platform.uname()
+    cpu = platform.processor() or "Unknown CPU"
+    ram_gb = round(psutil.virtual_memory().total / (1024**3), 2)
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    return f"""{ASCII_ART}
 
-{USERNAME}@github
-----------------------------
-OS: {OS_NAME}
-Shell: {SHELL}
-Resolution: {RESOLUTION}
-Terminal: {TERMINAL}
-Languages: {LANGUAGES}
-Projects: {PROJECTS}
-Updated: {now}
-Mood: {MOOD}
+    # Customize your ASCII logo here if you want
+    ascii_logo = r"""
+          __     ______  _____
+         \ \   / / __ \|  __ \
+          \ \_/ / |  | | |__) |
+           \   /| |  | |  _  /
+            | | | |__| | | \ \
+            |_|  \____/|_|  \_\
+    """
+
+    # System info block
+    info = f"""
+{ascii_logo}
+
+**Yeshey Tenzin**
+-------------------------
+OS: {uname.system} {uname.release}
+Kernel: {uname.version.split()[0]}
+CPU: {cpu}
+Arch: {uname.machine}
+RAM: {ram_gb} GB
+Python: {platform.python_version()}
+Generated: {now}
 """
 
-def update_readme():
-    readme_path = Path("README.md")
-    content = readme_path.read_text(encoding="utf-8")
-    new_block = generate_neofetch_block()
+    return info.strip()
 
+
+def update_readme():
+    readme_path = "README.md"
     start_marker = "<!--NEOFETCH_START-->"
     end_marker = "<!--NEOFETCH_END-->"
+    neofetch_content = generate_neofetch_block()
 
-    start_idx = content.find(start_marker)
-    end_idx = content.find(end_marker)
+    with open(readme_path, "r", encoding="utf-8") as f:
+        readme = f.read()
 
-    if start_idx == -1 or end_idx == -1:
-        raise ValueError("Markers not found in README.md")
+    before = readme.split(start_marker)[0]
+    after = readme.split(end_marker)[1] if end_marker in readme else ""
 
-    updated_content = (
-        content[:start_idx + len(start_marker)]
-        + "\n" + new_block + "\n"
-        + content[end_idx:]
-    )
+    new_readme = f"{before}{start_marker}\n\n```\n{neofetch_content}\n```\n\n{end_marker}{after}"
 
-    readme_path.write_text(updated_content, encoding="utf-8")
-    print("✅ README.md updated successfully with new Neofetch block!")
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(new_readme)
+
+    print("✅ README updated with system info.")
+
 
 if __name__ == "__main__":
     update_readme()
