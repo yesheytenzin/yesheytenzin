@@ -4,19 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A97BFF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Gopher+%26+Rustacean;DevOps+Enthusiast;Arch+Linux+User" alt="Typing SVG" />
 </p>
 
----
-
-### 💫 About Me
-
-I'm a software developer passionate about building efficient systems and exploring low-level programming. Whether it's crafting web applications with **JS/TS**, diving into **Golang** and **Rust**, or tinkering with **Linux** configurations, I love the process of creating and learning.
-
-- 🛠️ Currently building my own **Shell in Go** and a **Portfolio Blog**.
-- 🚀 Deeply interested in **DevOps**, Cloud Infrastructure, and Backend Architecture.
-- 🦀 Learning **Rust** to build high-performance tools.
-- 🐧 Proud **Arch Linux** user (btw).
-
----
-
 ### 🛠️ Tech Stack
 
 <p align="left">
@@ -50,36 +37,3 @@ I'm a software developer passionate about building efficient systems and explori
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yesheytenzin&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
 
----
-
-### 🐧 System Info
-
-```text
-                   -`
-                  .o+`
-                 `ooo/
-                `+oooo:
-               `+oooooo:
-               -+oooooo+:
-             `/:-:++oooo+:
-            `/++++/+++++++:
-           `/++++++++++++++:
-          `/+++ooooooooooooo/`
-         ./ooosssso++osssssso+`
-        .oossssso-````/ossssss+`
-       -osssssso.      :ssssssso.
-      :osssssss/        osssso+++.
-     /ossssssss/        +ssssooo/-
-   `/ossssso+/:-        -:/+osssso+-
-  `+sso+:-`                 `.-/+oso:
- `++:.                           `-/+/
- .`                                 `
-```
-
----
-
-<p align="center">
-  <a href="https://github.com/yesheytenzin">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
