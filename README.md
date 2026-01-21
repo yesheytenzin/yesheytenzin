@@ -28,12 +28,3 @@
 - **[httpfromtcp](https://github.com/yesheytenzin/httpfromtcp)** - Implementation of HTTP protocol over TCP in Go.
 - **[File-Sharing-App](https://github.com/yesheytenzin/File-Sharing-App)** - A robust file-sharing platform built with Django.
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yesheytenzin&show_icons=true&theme=tokyonight" alt="Yeshey's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yesheytenzin&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
