@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Yeshey Tenzin
 
-<p align="center">
+<p align="end">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A97BFF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Gopher+%26+Rustacean;DevOps+Enthusiast;Arch+Linux+User" alt="Typing SVG" />
 </p>
 
@@ -19,7 +19,6 @@
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch" />
 </p>
 
----
 
 ### 📁 Featured Projects
 
