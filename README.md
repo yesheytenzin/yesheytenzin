@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Yeshey Tenzin
 
-<p align="end">
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A97BFF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Gopher+%26+Rustacean;DevOps+Enthusiast;Arch+Linux+User" alt="Typing SVG" />
 </p>
 
