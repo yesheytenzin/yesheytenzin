@@ -17,7 +17,7 @@
 
 ### 📁 Featured Projects
 
-- **[shell-go](https://github.com/yesheytenzin/shell-go)** - Building a custom shell from scratch using Golang.
+- **[yish](https://github.com/yesheytenzin/yish)** - Building a custom shell from scratch using Golang.
 - **[zorig-classification](https://github.com/yesheytenzin/zorig-classification)** - Image classification for the thirteen traditional arts and crafts of Bhutan.
 - **[httpfromtcp](https://github.com/yesheytenzin/httpfromtcp)** - Implementation of HTTP protocol over TCP in Go.
 - **[File-Sharing-App](https://github.com/yesheytenzin/File-Sharing-App)** - A robust file-sharing platform built with Django.
